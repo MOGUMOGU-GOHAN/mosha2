@@ -1,0 +1,109 @@
+/* 全体部分 */
+img {
+    width: 100%;
+}
+
+/* header部分 */
+.top-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 26px 0 26px 0;
+    background-color: aqua;
+}
+
+.top-container>div>a {
+    margin-left: 80px;
+}
+
+.logo-photo>img {
+    width: 180px;
+    height: 20.77px;
+}
+
+.double-border>hr {
+    width: 30px;
+    margin-right: 80px;
+}
+
+/* main部分 */
+.main-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 35px;
+    row-gap: 30px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.main-content {
+    margin: 10 10 10 10;
+}
+
+.main-container>div>a {
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    transition-property: opacity;
+    transition-duration: 0.4s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+.main-content>a:hover {
+    opacity: .5;
+}
+
+/* section部分 */
+section {
+    margin-top: 30px;
+}
+
+section>a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    transition-property: opacity;
+    transition-duration: 0.4s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+section>a:hover {
+    opacity: .5;
+}
+
+/* footer部分 */
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 110px;
+    margin-bottom: 10px;
+}
+
+.sns-link {
+    display: flex;
+    margin-left: 80px;
+    font-size: 12px;
+    gap: 0 30px;
+}
+
+.sns-link>a {
+    text-decoration: none;
+    color: black;
+    transition-property: opacity;
+    transition-duration: 0.4s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+.sns-link>a:hover {
+    opacity: .5;
+}
+
+.copy-rights {
+    margin-top: 15px;
+    margin-right: 80px;
+    font-size: 10px;
+}
+/* justify (content) betweenを当てる */
